@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Dropdown-control { 
+  border-radius: 5px !important;
+  min-height: 46px;
+}
+
+.ant-input, .ant-input-search-button, .ant-input-number-input {
+  min-height: 46px;
+}
+
+a:hover {
+  border-bottom-width: 0px;
+}
+
+a{
+  color:black;
+}
+
